@@ -1,5 +1,6 @@
 package com.app.ecommerce.Product_Service.Service;
 
+
 import com.app.ecommerce.Product_Service.Model.Product;
 import com.app.ecommerce.Product_Service.dto.ProductRequest;
 import com.app.ecommerce.Product_Service.dto.ProductResponse;
@@ -18,6 +19,7 @@ import java.util.List;
 public class ProductService {
 
    private final ProductRepository productRepository;
+
 
     public void createProduct(ProductRequest productRequest){
         List<Product> existingProducts = productRepository.findByName(productRequest.getName());
