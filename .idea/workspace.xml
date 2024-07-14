@@ -7,10 +7,19 @@
     <list default="true" id="0abc77e7-0d7a-4443-9947-7e2e2ed0baff" name="Changes" comment="Initail project">
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inventory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Config/FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Config/FeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,39 +66,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ProductServiceApplicationTests.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.Microservices-Ecommerce [clean,verify].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.InventoryServiceApplication.executor": "Run",
-    "Spring Boot.OrderServiceApplication.executor": "Run",
-    "Spring Boot.ProductServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/IdeaProjects/Ecommerce-Microservices/Microservices-Ecommerce/Order-Service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ProductServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Microservices-Ecommerce [clean,verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IdeaProjects/Ecommerce-Microservices/Microservices-Ecommerce/Order-Service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\Ecommerce-Microservices\Microservices-Ecommerce\Order-Service" />
@@ -118,6 +129,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Eureka-Server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.eurekaserver.EurekaServerApplication" />
@@ -125,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="Inventory-Service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.inventoryservice.InventoryServiceApplication" />
@@ -155,6 +174,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ProductServiceApplicationTests" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.ProductServiceApplication" />
+      <item itemvalue="Spring Boot.InventoryServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.InventoryServiceApplication" />
@@ -180,7 +207,8 @@
       <updated>1720870008383</updated>
       <workItem from="1720870009590" duration="1919000" />
       <workItem from="1720871967501" duration="3606000" />
-      <workItem from="1720883687372" duration="9650000" />
+      <workItem from="1720883687372" duration="19472000" />
+      <workItem from="1720965060260" duration="2788000" />
     </task>
     <task id="LOCAL-00001" summary="Initail project">
       <option name="closed" value="true" />

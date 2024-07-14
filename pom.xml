@@ -18,6 +18,7 @@
     <module>Order-Service</module>
     <module>Inventory-Service</module>
     <module>Eureka-Server</module>
+    <module>api-gateway</module>
   </modules>
 
   <dependencyManagement>
@@ -26,6 +27,13 @@
         <groupId>org.testcontainers</groupId>
         <artifactId>testcontainers-bom</artifactId>
         <version>1.19.8</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>2023.0.3</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
