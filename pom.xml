@@ -12,11 +12,12 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Archetype - Microservices-Ecommerce</name>
-  <url>http://maven.apache.org</url>
+  <url>https://maven.apache.org</url>
   <modules>
     <module>Product-Service</module>
     <module>Order-Service</module>
     <module>Inventory-Service</module>
+    <module>Eureka-Server</module>
   </modules>
 
   <dependencyManagement>
