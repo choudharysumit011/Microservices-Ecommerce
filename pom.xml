@@ -19,6 +19,7 @@
     <module>Inventory-Service</module>
     <module>Eureka-Server</module>
     <module>api-gateway</module>
+    <module>auth-service</module>
   </modules>
 
   <dependencyManagement>

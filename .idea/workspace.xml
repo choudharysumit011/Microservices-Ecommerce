@@ -7,19 +7,9 @@
     <list default="true" id="0abc77e7-0d7a-4443-9947-7e2e2ed0baff" name="Changes" comment="Initail project">
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/java/com/ecommerce/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Config/FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Config/FeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +127,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Eureka-Server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.eurekaserver.EurekaServerApplication" />
@@ -176,6 +174,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ProductServiceApplicationTests" />
+      <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
@@ -208,7 +207,9 @@
       <workItem from="1720870009590" duration="1919000" />
       <workItem from="1720871967501" duration="3606000" />
       <workItem from="1720883687372" duration="19472000" />
-      <workItem from="1720965060260" duration="2788000" />
+      <workItem from="1720965060260" duration="3473000" />
+      <workItem from="1721013521475" duration="2891000" />
+      <workItem from="1721103566969" duration="3499000" />
     </task>
     <task id="LOCAL-00001" summary="Initail project">
       <option name="closed" value="true" />
