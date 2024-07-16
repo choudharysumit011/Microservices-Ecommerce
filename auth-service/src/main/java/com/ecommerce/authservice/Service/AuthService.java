@@ -12,10 +12,19 @@ import org.springframework.stereotype.Service;
 public class AuthService {
     private final AuthRepository authRepository;
     private final PasswordEncoder passwordEncoder;
+    private final JwtService jwtService;
 
     public String userCreate(UserCredentials userCredentials) {
         userCredentials.setPassword(passwordEncoder.encode(userCredentials.getPassword()));
         authRepository.save(userCredentials);
         return "User created";
+    }
+
+    public String generateToken(String username){
+        return jwtService.generateToken(username);
+    }
+
+    public void validateToken(String token) {
+        jwtService.validateToken(token);
     }
 }
