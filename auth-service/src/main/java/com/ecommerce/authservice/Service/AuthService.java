@@ -1,6 +1,7 @@
 package com.ecommerce.authservice.Service;
 
 import com.ecommerce.authservice.Config.AuthConfig;
+import com.ecommerce.authservice.Config.InvalidTokenException;
 import com.ecommerce.authservice.Model.UserCredentials;
 import com.ecommerce.authservice.Repository.AuthRepository;
 import lombok.RequiredArgsConstructor;
@@ -30,6 +31,17 @@ public class AuthService {
     }
 
     public void validateToken(String token) {
-        jwtService.validateToken(token);
+        if (!isValidToken(token)) {
+            throw new InvalidTokenException("Invalid token");
+        }
+    }
+
+    private boolean isValidToken(String token) {
+        try {
+            jwtService.validateToken(token);
+            return true; // Token is valid
+        } catch (Exception e) {
+            return false; // Token is invalid
+        }
     }
 }
