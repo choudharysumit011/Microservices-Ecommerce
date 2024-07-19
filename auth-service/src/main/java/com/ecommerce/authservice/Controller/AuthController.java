@@ -4,8 +4,6 @@ import com.ecommerce.authservice.Config.InvalidTokenException;
 import com.ecommerce.authservice.DTO.UserRequest;
 import com.ecommerce.authservice.Model.UserCredentials;
 import com.ecommerce.authservice.Service.AuthService;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

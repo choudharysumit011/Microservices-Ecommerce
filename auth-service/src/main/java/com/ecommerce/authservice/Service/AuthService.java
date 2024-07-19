@@ -6,6 +6,7 @@ import com.ecommerce.authservice.Model.UserCredentials;
 import com.ecommerce.authservice.Repository.AuthRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,8 @@ public class AuthService {
     }
 
     public String generateToken(String username){
-        return jwtService.generateToken(username);
+
+        return (jwtService.generateToken(username));
     }
 
     public void validateToken(String token) {
