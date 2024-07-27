@@ -4,6 +4,7 @@ import com.ecommerce.authservice.Config.InvalidTokenException;
 import com.ecommerce.authservice.DTO.UserRequest;
 import com.ecommerce.authservice.Model.UserCredentials;
 import com.ecommerce.authservice.Service.AuthService;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,10 +12,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
+@Validated
 
 @Slf4j
 public class AuthController {
@@ -25,7 +28,7 @@ public class AuthController {
     AuthenticationManager authenticationManager;
 
     @PostMapping("/register")
-    public String addNewUser(@RequestBody UserCredentials userCredentials){
+    public String addNewUser(@Valid @RequestBody UserCredentials userCredentials){
         log.debug("User credentials: {}", userCredentials.getName());
         log.debug("User password: {}", userCredentials.getPassword());
        return authService.userCreate(userCredentials);

@@ -8,9 +8,12 @@ import com.app.ecommerce.Product_Service.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -21,17 +24,21 @@ public class ProductService {
    private final ProductRepository productRepository;
 
 
-    public void createProduct(ProductRequest productRequest){
+    public ResponseEntity<String> createProduct(ProductRequest productRequest){
         List<Product> existingProducts = productRepository.findByName(productRequest.getName());
         if (!existingProducts.isEmpty()) {
+
             log.info("Product with name {} already exists", productRequest.getName());
-            throw new ResponseStatusException(HttpStatus.CONFLICT, "Product already exists");
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("Product with name " + productRequest.getName() + " already exists");
+            //throw new ResponseStatusException(HttpStatus.CONFLICT, "Product already exists");
         }
         Product product = Product.builder().name(productRequest.getName()).price(productRequest.getPrice())
                 .description(productRequest.getDescription()).build();
 
                 productRepository.save(product);
-                log.info("Product {} created",product.getId());
+        log.info("Product {} created",product.getId());
+                return ResponseEntity.status(HttpStatus.CREATED).body("Product created");
+
 
     }
 
@@ -44,7 +51,7 @@ public class ProductService {
 
         if(productRepository.findByName(name).isEmpty()){
             log.info("Product with name {} doesn't exists", name);
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Product doesn't exists");
+            return Collections.EMPTY_LIST;
         }
         List<Product> products = productRepository.findByName(name);
         log.info("Product with name {} found",name);

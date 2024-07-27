@@ -7,11 +7,25 @@
     <list default="true" id="0abc77e7-0d7a-4443-9947-7e2e2ed0baff" name="Changes" comment="Initail project">
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/ecommerce/apigateway/Filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ecommerce/apigateway/Filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/DTO/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/DTO/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Model/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Model/UserCredentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +115,9 @@
       <recent name="C:\IdeaProjects\Ecommerce-Microservices\Microservices-Ecommerce\Order-Service" />
       <recent name="C:\IdeaProjects\Ecommerce-Microservices\Microservices-Ecommerce\Product-Service" />
       <recent name="C:\IdeaProjects\Ecommerce-Microservices\Microservices-Ecommerce\Inventory-Service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ecommerce.authservice.Controller" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -216,7 +233,12 @@
       <workItem from="1721013521475" duration="2891000" />
       <workItem from="1721103566969" duration="5882000" />
       <workItem from="1721190163172" duration="5603000" />
-      <workItem from="1721225774136" duration="14323000" />
+      <workItem from="1721225774136" duration="15143000" />
+      <workItem from="1721386032114" duration="681000" />
+      <workItem from="1721408232379" duration="2369000" />
+      <workItem from="1721580231022" duration="617000" />
+      <workItem from="1721789633661" duration="2858000" />
+      <workItem from="1722088725770" duration="9505000" />
     </task>
     <task id="LOCAL-00001" summary="Initail project">
       <option name="closed" value="true" />

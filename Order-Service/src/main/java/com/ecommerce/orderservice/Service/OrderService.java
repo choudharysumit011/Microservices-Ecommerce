@@ -10,6 +10,7 @@ import com.ecommerce.orderservice.Repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,7 +29,7 @@ public class OrderService {
 
 
 
-    public void placeOrder(OrderRequest orderRequest) {
+    public ResponseEntity<String> placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
         order.setOrderNumber(UUID.randomUUID().toString());
 
@@ -49,9 +50,11 @@ public class OrderService {
         // If all products exist, save the order
         if (allProductsExist) {
             orderRepository.save(order);
-            log.info("Order Placed Successfully");
+            return ResponseEntity.ok().body("Order Placed Successfully");
+           // log.info("Order Placed Successfully");
         } else {
-            throw new RuntimeException("One or more products are out of stock.");
+            return ResponseEntity.badRequest().body("Out of Stock");
+           // throw new RuntimeException("One or more products are out of stock.");
         }
     }
 

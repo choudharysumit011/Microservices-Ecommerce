@@ -10,6 +10,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 @RequiredArgsConstructor
 
@@ -19,6 +21,13 @@ public class AuthService {
     private final JwtService jwtService;
 
     public String userCreate(UserCredentials userCredentials) {
+
+        Optional<UserCredentials> existingUser = authRepository.findByName(userCredentials.getName());
+
+        if (existingUser.isPresent()) {
+            return "Username already exists";
+        }
+
         if(userCredentials.getPassword() == null){
             throw new IllegalArgumentException("Password cannot be null");
         }
