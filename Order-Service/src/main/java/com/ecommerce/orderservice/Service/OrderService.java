@@ -6,11 +6,14 @@ import com.ecommerce.orderservice.DTO.OrderLineItemsDto;
 import com.ecommerce.orderservice.DTO.OrderRequest;
 import com.ecommerce.orderservice.Model.Order;
 import com.ecommerce.orderservice.Model.OrderLineItems;
+import com.ecommerce.orderservice.Model.OrderPlacedEvent;
 import com.ecommerce.orderservice.Repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,6 +28,10 @@ public class OrderService {
     private static final Logger log = LoggerFactory.getLogger(OrderService.class);
     private final OrderRepository orderRepository;
     private final FeignClient feignClient;
+    private static final String TOPIC = "notificationTopic";
+
+    @Autowired
+    private KafkaTemplate<String, OrderPlacedEvent> kafkaTemplate;
 
 
 
@@ -50,6 +57,7 @@ public class OrderService {
         // If all products exist, save the order
         if (allProductsExist) {
             orderRepository.save(order);
+            kafkaTemplate.send(TOPIC, new OrderPlacedEvent(order.getOrderNumber()));
             return ResponseEntity.ok().body("Order Placed Successfully");
            // log.info("Order Placed Successfully");
         } else {

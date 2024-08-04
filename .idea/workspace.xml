@@ -7,24 +7,22 @@
     <list default="true" id="0abc77e7-0d7a-4443-9947-7e2e2ed0baff" name="Changes" comment="Initail project">
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka-Server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/java/com/ecommerce/orderservice/Service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order-Service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Product-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/Service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/java/com/app/ecommerce/Product_Service/dto/ProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/ecommerce/apigateway/Filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ecommerce/apigateway/Filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Product-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/DTO/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/DTO/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Model/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Model/UserCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/ecommerce/authservice/Service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +58,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -84,6 +85,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.AuthServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EmailServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.InventoryServiceApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
@@ -107,8 +109,14 @@
     ]
   }
 }</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\SUMITC~1\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f70fb9f9-2d7d-419a-b5fa-6b496558f96c" reportId="Microservices-Ecommerce/qodana/2024-07-30" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ecommerce.orderservice.Model" />
       <recent name="com.ecommerce.authservice.Service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -125,7 +133,14 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EmailServiceApplication">
     <configuration name="ProductServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Product-Service" />
       <extension name="coverage">
@@ -153,6 +168,14 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="auth-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.authservice.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="email-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.emailservice.EmailServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,6 +222,7 @@
       <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EmailServiceApplication" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.ProductServiceApplication" />
       <item itemvalue="Spring Boot.InventoryServiceApplication" />
@@ -238,7 +262,9 @@
       <workItem from="1721408232379" duration="2369000" />
       <workItem from="1721580231022" duration="617000" />
       <workItem from="1721789633661" duration="2858000" />
-      <workItem from="1722088725770" duration="9505000" />
+      <workItem from="1722088725770" duration="11920000" />
+      <workItem from="1722335926995" duration="14830000" />
+      <workItem from="1722794882791" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Initail project">
       <option name="closed" value="true" />
